@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= favicon_link_tag asset_path('favicon.png'), :rel => 'icon', :type =>  'image/png' %>
     <title>PlaiceBook</title>
     <%= csrf_meta_tags %>
 
@@ -17,4 +18,8 @@
     <% end %>
     <%= yield %>
   </body>
+  <footer>
+    <p>&copy; PlaiceBook 2019</p>
+    <p>"<a href="https://thenounproject.com/term/plaice/332211">Plaice</a>" icon by Örn Smári Gíslason from <a href= https://thenounproject.com/>the Noun Project</a></p>
+  </footer>
 </html>

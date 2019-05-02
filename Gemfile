@@ -9,6 +9,8 @@ end
 
 gem 'factory_bot_rails'
 gem 'devise'
+gem 'jquery-rails'
+gem 'turbolinks'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # linting with rubocop

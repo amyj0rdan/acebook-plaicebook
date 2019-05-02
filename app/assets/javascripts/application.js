@@ -10,5 +10,30 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
+//= require jquery
+//= require turbolinks 
 //= require_tree .
+
+$(document).ready(function() {
+  $('.unlike-button').on('click', function() {
+    $.ajax({
+      url: '/posts/' + this.parentElement.id,
+      type: 'DELETE',
+      success: function(r) {
+
+      }
+    })
+    event.preventDefault()
+  })
+
+  $('.like-button').on('click', function() {
+    $.ajax({
+      url: '/posts/' + this.parentElement.id + '/likes',
+      type: 'POST',
+      success: function(r) {
+
+      }
+    })
+    event.preventDefault()
+  })
+})

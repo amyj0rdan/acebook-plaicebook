@@ -1,3 +1,7 @@
+<div class="post-container">
+  <%= link_to "< Back to posts", :back, class: "back" %>
+</div>
+
 <div class="new-post">
   <%= form_for @post do |form| %>
     <%= form.label :message, "Update your message", class: "post-form-label" %>

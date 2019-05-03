@@ -26,7 +26,7 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find(params[:id])
     @post.destroy
-
+    flash[:notice] = "Thank cod that's gone!"
     redirect_to posts_url
   end
 

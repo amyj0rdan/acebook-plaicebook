@@ -1,6 +1,12 @@
-<%= form_for @comment, url: post_comment_path(@post, @comment) do |form| %>
-  <%= form.label :body %>
-  <%= form.text_area :body %>
+<div class="post-container">
+  <%= link_to "< Back to posts", :back, class: "back" %>
+</div>
 
-  <%= form.submit "Update" %>
-<% end %>
+<div class="new-post">
+  <%= form_for @comment, url: post_comment_path(@post, @comment) do |form| %>
+    <%= form.label :body, "Update your comment", class: "post-form-label" %>
+    <%= form.text_area :body, class: "post-form-textarea" %>
+
+    <%= form.submit "Update", class: "post-form-submit" %>
+  <% end %>
+</div>

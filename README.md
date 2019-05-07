@@ -6,7 +6,7 @@
 
 <img src="https://media.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" width=50%>
 
-[Project description](#project-description) | [Team learning documentation](#team-learning-documentation)
+[Project description](#project-description) | [Team learning documentation](#team-learning-documentation) | [Team presentation slides](https://docs.google.com/presentation/d/1G4_IIE2ZSAjdjU69yEMdQYqS11aMUgAvkvzofioMsOM/edit?usp=sharing)
 
 [Getting started](#getting-started) | [Running tests](#running-tests) | [Usage](#Usage) | [How to contribute](#how-to-contribute) | [How we deployed](#how-we-deployed)
 
